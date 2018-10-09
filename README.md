@@ -33,5 +33,3 @@ Tested on Eclipse.
 
 ### Motivation
 The book 'Thinking in Java' is an excellent resource for learning Java. This github project simply aims to move the Source Code for the book to a Maven project, thereby making it very easy for learners to import it into their IDEs and begin exploring. 
-Personally, I wasn't able to get the Ant build to work, because the build xmls inside the packages had all restrictions that they would only get built if Java SE 5 was present. I had SE7 to start, and like me, I believe most of the learners would have updated their JDK to updated versions.
-So instead of modifying the build xmls, I thought it would be better to simply migrate the code to a Maven project.
